@@ -6,27 +6,27 @@ export default function FAQ() {
     {
       pergunta: "O que é a SkillBridge?",
       resposta:
-        "A SkillBridge é uma plataforma inteligente que conecta estudantes técnicos a oportunidades reais no mercado, oferecendo microcontratos, experiências práticas e estágios de curta duração. Tudo isso com tecnologia avançada de matching entre talentos e empresas.",
+        "A SkillBridge é uma plataforma que conecta estudantes técnicos a oportunidades reais no mercado, oferecendo microcontratos, experiências práticas e estágios de curta duração com foco em desenvolvimento profissional.",
     },
     {
       pergunta: "Como funciona o match entre aluno e empresa?",
       resposta:
-        "Nosso algoritmo avalia habilidades, portfólio, experiência, disponibilidade e requisitos das empresas. Assim, cada aluno recebe vagas compatíveis e cada empresa recebe candidatos altamente qualificados.",
+        "O sistema analisa habilidades, portfólio, experiência, disponibilidade e requisitos das empresas, gerando conexões mais alinhadas entre candidatos e oportunidades.",
     },
     {
       pergunta: "O projeto é focado em quais objetivos?",
       resposta:
-        "Nosso foco é ampliar oportunidades para estudantes técnicos, facilitar contratações para pequenas empresas e fortalecer a empregabilidade com experiência prática real — promovendo impacto social e desenvolvimento profissional.",
+        "O principal objetivo é ampliar o acesso ao mercado de trabalho para estudantes técnicos, facilitando contratações e promovendo experiência prática desde o início da formação.",
     },
     {
       pergunta: "As empresas pagam pelo serviço?",
       resposta:
-        "Sim. Empresas podem usar a plataforma gratuitamente com recursos básicos ou optar pelo Plano Premium, que oferece maior visibilidade, triagem avançada, relatórios e prioridade no sistema de matching.",
+        "Sim. As empresas podem utilizar recursos básicos gratuitamente ou optar pelo Plano Premium, que oferece maior visibilidade e funcionalidades avançadas.",
     },
     {
       pergunta: "Os estudantes recebem por cada microcontrato?",
       resposta:
-        "Sim! Todos os microcontratos são remunerados. O aluno ganha experiência prática, renda extra e fortalece seu portfólio com entregas reais para empresas.",
+        "Sim. Todos os microcontratos possuem remuneração, permitindo que o aluno adquira experiência real e fortaleça seu portfólio profissional.",
     },
   ];
 
@@ -41,7 +41,7 @@ export default function FAQ() {
       <div className="text-center mb-12">
         <h1 className="text-4xl font-extrabold">FAQ</h1>
         <p className="text-gray-400 dark:text-gray-300 text-lg">
-          Perguntas frequentes sobre a experiência na SkillBridge.
+          Dúvidas frequentes sobre a plataforma SkillBridge.
         </p>
       </div>
 

@@ -4,55 +4,53 @@ export default function Sobre() {
   return (
     <div className="app-container">
       <motion.h1
-        className="text-4xl font-bold mb-6"
+        className="text-4xl font-bold mb-5"
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
       >
-        Sobre o SkillBridge
+        Sobre a SkillBridge
       </motion.h1>
 
       <motion.p
-        className="text-gray-600 dark:text-gray-300 text-lg max-w-3xl mb-12"
+        className="text-gray-600 dark:text-gray-300 text-lg max-w-3xl mb-10"
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ delay: 0.2 }}
       >
-        Uma plataforma criada para aproximar estudantes técnicos e microempresas,
-        transformando habilidades reais em oportunidades reais — de forma simples,
-        rápida e confiável.
+        Plataforma desenvolvida para aproximar estudantes técnicos e microempresas,
+        transformando conhecimento prático em oportunidades reais de forma direta,
+        segura e eficiente.
       </motion.p>
 
       <motion.div
-        className="bg-white dark:bg-gray-800 p-8 rounded-xl shadow-md border dark:border-gray-700 mb-16"
+        className="bg-white dark:bg-gray-800 p-8 rounded-xl shadow-md border dark:border-gray-700 mb-14"
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ delay: 0.3 }}
       >
         <h2 className="text-2xl font-bold mb-4">A História</h2>
         <p className="text-gray-700 dark:text-gray-300 leading-relaxed mb-4">
-          A SkillBridge nasceu a partir de uma realidade comum nas escolas técnicas:
-          alunos com boa formação prática, mas sem acesso a oportunidades reais para
-          aplicar o que sabem. Ao mesmo tempo, microempresas locais enfrentam um
-          desafio oposto — precisam de ajuda técnica, mas não têm tempo ou estrutura
-          para lidar com processos longos, entrevistas e triagens tradicionais.
+          A SkillBridge surgiu a partir da realidade enfrentada por muitos estudantes
+          técnicos que possuem boa formação prática, mas encontram dificuldade em
+          acessar oportunidades para aplicar seus conhecimentos em situações reais.
+          Ao mesmo tempo, microempresas locais necessitam de apoio técnico pontual,
+          mas evitam processos longos e burocráticos.
         </p>
 
         <p className="text-gray-700 dark:text-gray-300 leading-relaxed mb-4">
-          Percebemos que esses dois mundos não se encontram por falta de
-          <span className="font-semibold"> conexão</span>, não por falta de talento.
-          Foi assim que surgiu a ideia de uma ponte — uma forma simples, rápida e
-          transparente de unir demanda e habilidade técnica.
+          Essa desconexão não ocorre por falta de competência, mas sim por ausência
+          de integração entre demanda e talento. A SkillBridge atua justamente nesse
+          ponto, simplificando esse encontro de forma objetiva.
         </p>
 
         <p className="text-gray-700 dark:text-gray-300 leading-relaxed">
-          O SkillBridge é essa ponte. Um ambiente onde empresas conseguem apoio real
-          sem burocracia e estudantes ganham prática, portfólio e renda enquanto
-          aprendem.
+          O objetivo é criar um ambiente funcional em que empresas encontrem soluções
+          práticas e estudantes desenvolvam experiência profissional com relevância.
         </p>
       </motion.div>
 
       <motion.div
-        className="mb-16"
+        className="mb-14"
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ delay: 0.4 }}
@@ -61,33 +59,30 @@ export default function Sobre() {
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
           <div className="card-panel">
-            <h3 className="font-semibold text-lg mb-2">Tempo e burocracia</h3>
+            <h3 className="font-semibold text-lg mb-2">Processos demorados</h3>
             <p className="text-gray-600 dark:text-gray-300">
-              Processos de contratação longos afastam microempresas que só precisam
-              de ajuda prática para demandas rápidas.
+              Fluxos tradicionais dificultam contratações rápidas para demandas pontuais.
             </p>
           </div>
 
           <div className="card-panel">
-            <h3 className="font-semibold text-lg mb-2">Falta de visibilidade</h3>
+            <h3 className="font-semibold text-lg mb-2">Pouca exposição</h3>
             <p className="text-gray-600 dark:text-gray-300">
-              Alunos técnicos não conseguem mostrar suas competências reais antes
-              mesmo de entrarem no mercado.
+              Estudantes não conseguem demonstrar suas capacidades de forma prática.
             </p>
           </div>
 
           <div className="card-panel">
-            <h3 className="font-semibold text-lg mb-2">Baixa confiança</h3>
+            <h3 className="font-semibold text-lg mb-2">Insegurança na escolha</h3>
             <p className="text-gray-600 dark:text-gray-300">
-              Empresas não sabem avaliar habilidades com precisão e têm receio de
-              contratar sem referências.
+              Empresas têm dificuldade em avaliar perfis sem histórico profissional.
             </p>
           </div>
         </div>
       </motion.div>
 
       <motion.div
-        className="mb-16"
+        className="mb-14"
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ delay: 0.5 }}
@@ -96,40 +91,37 @@ export default function Sobre() {
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
           <div className="card-panel">
-            <h3 className="font-semibold text-lg mb-2">Match inteligente</h3>
+            <h3 className="font-semibold text-lg mb-2">Conexão inteligente</h3>
             <p className="text-gray-600 dark:text-gray-300">
-              Cruzamos competências, disponibilidade e necessidades da empresa para
-              gerar conexões rápidas e precisas.
+              Análise de perfil e demanda para sugerir combinações adequadas.
             </p>
           </div>
 
           <div className="card-panel">
-            <h3 className="font-semibold text-lg mb-2">Microcontratos</h3>
+            <h3 className="font-semibold text-lg mb-2">Projetos objetivos</h3>
             <p className="text-gray-600 dark:text-gray-300">
-              Trabalhos curtos e práticos para dar experiência real ao aluno e
-              resultado imediato para a empresa.
+              Contratos curtos focados em entregas práticas e mensuráveis.
             </p>
           </div>
 
           <div className="card-panel">
-            <h3 className="font-semibold text-lg mb-2">Avaliação transparente</h3>
+            <h3 className="font-semibold text-lg mb-2">Feedback estruturado</h3>
             <p className="text-gray-600 dark:text-gray-300">
-              Após cada contrato, ambos os lados deixam feedback para melhorar a
-              confiabilidade da plataforma.
+              Avaliações que fortalecem a credibilidade entre as partes.
             </p>
           </div>
         </div>
       </motion.div>
 
       <motion.div
-        className="bg-white dark:bg-gray-800 p-8 rounded-xl shadow-md border dark:border-gray-700 mb-16"
+        className="bg-white dark:bg-gray-800 p-8 rounded-xl shadow-md border dark:border-gray-700 mb-14"
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ delay: 0.6 }}
       >
         <h2 className="text-2xl font-bold mb-4">Impacto Social</h2>
         <p className="text-gray-700 dark:text-gray-300 leading-relaxed mb-3">
-          O SkillBridge contribui diretamente com metas globais da ONU:
+          O projeto contribui com metas globais relacionadas à educação e empregabilidade:
         </p>
 
         <ul className="list-disc ml-6 text-gray-700 dark:text-gray-300 leading-relaxed">
@@ -143,29 +135,29 @@ export default function Sobre() {
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ delay: 0.7 }}
-        className="mb-32"
+        className="mb-28"
       >
         <h2 className="text-2xl font-bold mb-6">Como Funciona</h2>
 
         <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
           <div className="card-panel text-center">
-            <h3 className="font-semibold mb-2">1. Cadastro</h3>
-            <p className="text-gray-600 dark:text-gray-300">Aluno e empresa criam perfil.</p>
+            <h3 className="font-semibold mb-2">Cadastro</h3>
+            <p className="text-gray-600 dark:text-gray-300">Criação de perfil básico.</p>
           </div>
 
           <div className="card-panel text-center">
-            <h3 className="font-semibold mb-2">2. Match</h3>
-            <p className="text-gray-600 dark:text-gray-300">O sistema encontra a melhor combinação.</p>
+            <h3 className="font-semibold mb-2">Análise</h3>
+            <p className="text-gray-600 dark:text-gray-300">Compatibilidade entre perfis.</p>
           </div>
 
           <div className="card-panel text-center">
-            <h3 className="font-semibold mb-2">3. Microcontrato</h3>
-            <p className="text-gray-600 dark:text-gray-300">Trabalho prático e curto.</p>
+            <h3 className="font-semibold mb-2">Execução</h3>
+            <p className="text-gray-600 dark:text-gray-300">Entrega do serviço proposto.</p>
           </div>
 
           <div className="card-panel text-center">
-            <h3 className="font-semibold mb-2">4. Avaliação</h3>
-            <p className="text-gray-600 dark:text-gray-300">Ambos avaliam e constroem reputação.</p>
+            <h3 className="font-semibold mb-2">Avaliação</h3>
+            <p className="text-gray-600 dark:text-gray-300">Registro de desempenho.</p>
           </div>
         </div>
       </motion.div>
